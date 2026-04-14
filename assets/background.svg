@@ -176,24 +176,22 @@
     <ellipse cx="0" cy="-21" rx="9.5" ry="23" fill="url(#g-petala-creme)" transform="rotate(225)"/>
     <ellipse cx="0" cy="-21" rx="9.5" ry="23" fill="url(#g-petala-creme)" transform="rotate(270)"/>
     <ellipse cx="0" cy="-21" rx="9.5" ry="23" fill="url(#g-petala-creme)" transform="rotate(315)"/>
-    <!-- nervuras pétalas -->
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.35" transform="rotate(0)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(45)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(90)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(135)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(180)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(225)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(270)"/>
-    <line x1="0" y1="0" x2="0"  y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(315)"/>
-    <!-- estame -->
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.35" transform="rotate(0)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(45)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(90)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(135)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(180)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(225)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(270)"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#C4A068" stroke-width="0.7" opacity="0.30" transform="rotate(315)"/>
     <circle cx="0" cy="0" r="11"  fill="url(#g-estame)" opacity="0.95"/>
     <circle cx="0" cy="0" r="6"   fill="#D4820E"        opacity="0.88"/>
-    <circle cx="0"  cy="-7.5" r="1.6" fill="#8B4E14" opacity="0.72"/>
-    <circle cx="5.5" cy="-5"  r="1.4" fill="#8B4E14" opacity="0.66"/>
-    <circle cx="6.5" cy="2"   r="1.4" fill="#8B4E14" opacity="0.62"/>
-    <circle cx="-5.5" cy="-5" r="1.4" fill="#8B4E14" opacity="0.66"/>
-    <circle cx="-6.5" cy="2"  r="1.4" fill="#8B4E14" opacity="0.62"/>
-    <circle cx="0"   cy="7.5" r="1.6" fill="#8B4E14" opacity="0.68"/>
+    <circle cx="0"   cy="-7.5" r="1.6" fill="#8B4E14" opacity="0.72"/>
+    <circle cx="5.5" cy="-5"   r="1.4" fill="#8B4E14" opacity="0.66"/>
+    <circle cx="6.5" cy="2"    r="1.4" fill="#8B4E14" opacity="0.62"/>
+    <circle cx="-5.5" cy="-5"  r="1.4" fill="#8B4E14" opacity="0.66"/>
+    <circle cx="-6.5" cy="2"   r="1.4" fill="#8B4E14" opacity="0.62"/>
+    <circle cx="0"   cy="7.5"  r="1.6" fill="#8B4E14" opacity="0.68"/>
   </g>
 
   <!-- Flor 2 — marrom, 7 pétalas, inclinada -->
@@ -516,511 +514,187 @@
   </g>
 </g>
 
+<!-- UTENSÍLIOS & INGREDIENTES — zona y=440-780, fora dos galhos
+     ESQUERDA x=30-220   |   DIREITA x=1700-1910 -->
 
-<!-- ════════════════════════════════════════════════════════
-     PÉTALAS CAINDO — soltas pela tela, fora do centro
-     Cada pétala tem forma ellipse + nervura central
-     ════════════════════════════════════════════════════════ -->
+<!-- ════ LADO ESQUERDO ════ -->
 
-<!-- Lado esquerdo (x < 420) -->
-
-<g transform="translate(148,165) rotate(-42)" opacity="0.56" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-13" rx="8.5" ry="20" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="6" x2="0" y2="-11" stroke="#C4A868" stroke-width="0.9" opacity="0.45"/>
-  <line x1="0" y1="-4" x2="5" y2="-10"  stroke="#C4A868" stroke-width="0.6" opacity="0.30"/>
-  <line x1="0" y1="-4" x2="-5" y2="-10" stroke="#C4A868" stroke-width="0.6" opacity="0.30"/>
-</g>
-
-<g transform="translate(88,520) rotate(67)" opacity="0.44" filter="url(#bl2)">
-  <ellipse cx="0" cy="-11" rx="7" ry="16" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="5" x2="0" y2="-9" stroke="#B8714A" stroke-width="0.8" opacity="0.38"/>
-</g>
-
-<g transform="translate(195,82) rotate(-18)" opacity="0.54" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-10" rx="6" ry="14" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-8" stroke="#D4C090" stroke-width="0.7" opacity="0.40"/>
-  <line x1="0" y1="-2" x2="4"  y2="-7" stroke="#D4C090" stroke-width="0.5" opacity="0.28"/>
-  <line x1="0" y1="-2" x2="-4" y2="-7" stroke="#D4C090" stroke-width="0.5" opacity="0.28"/>
-</g>
-
-<g transform="translate(260,308) rotate(105)" opacity="0.42" filter="url(#bl1)">
-  <ellipse cx="0" cy="-12" rx="7" ry="18" fill="url(#g-petala-rosa)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C8895C" stroke-width="0.8" opacity="0.35"/>
-</g>
-
-<g transform="translate(55,390) rotate(30)" opacity="0.28" filter="url(#bl3)">
-  <ellipse cx="0" cy="-9" rx="5.5" ry="13" fill="url(#g-petala-creme)"/>
-</g>
-
-<g transform="translate(168,640) rotate(-80)" opacity="0.40" filter="url(#bl2)">
-  <ellipse cx="0" cy="-12" rx="7.5" ry="17" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#B8714A" stroke-width="0.8" opacity="0.35"/>
-</g>
-
-<g transform="translate(310,145) rotate(52)" opacity="0.50" filter="url(#bl1)">
-  <ellipse cx="0" cy="-11" rx="6.5" ry="15" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-9" stroke="#D4C090" stroke-width="0.7" opacity="0.38"/>
-</g>
-
-<g transform="translate(120,760) rotate(-35)" opacity="0.28" filter="url(#bl3)">
-  <ellipse cx="0" cy="-7.5" rx="5" ry="11" fill="url(#g-petala-rosa)"/>
-</g>
-
-<g transform="translate(235,460) rotate(133)" opacity="0.40" filter="url(#bl2)">
-  <ellipse cx="0" cy="-12" rx="7" ry="17" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C4A868" stroke-width="0.7" opacity="0.33"/>
-</g>
-
-<g transform="translate(180,228) rotate(-65)" opacity="0.60" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-12" rx="7" ry="16" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C4845A" stroke-width="0.8" opacity="0.42"/>
-  <line x1="0" y1="-2" x2="4"  y2="-8" stroke="#C4845A" stroke-width="0.5" opacity="0.30"/>
-  <line x1="0" y1="-2" x2="-4" y2="-8" stroke="#C4845A" stroke-width="0.5" opacity="0.30"/>
-</g>
-
-<g transform="translate(342,680) rotate(22)" opacity="0.35" filter="url(#bl2)">
-  <ellipse cx="0" cy="-10" rx="6" ry="14" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-8" stroke="#D4C090" stroke-width="0.7" opacity="0.32"/>
-</g>
-
-<g transform="translate(75,855) rotate(-50)" opacity="0.25" filter="url(#bl3)">
-  <ellipse cx="0" cy="-8" rx="5" ry="11" fill="url(#g-petala-creme)"/>
-</g>
-
-<!-- Lado direito (x > 1500) -->
-
-<g transform="translate(1772,155) rotate(38)" opacity="0.56" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-13" rx="8.5" ry="20" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="6" x2="0" y2="-11" stroke="#C4845A" stroke-width="0.9" opacity="0.43"/>
-  <line x1="0" y1="-4" x2="5"  y2="-10" stroke="#C4845A" stroke-width="0.6" opacity="0.30"/>
-  <line x1="0" y1="-4" x2="-5" y2="-10" stroke="#C4845A" stroke-width="0.6" opacity="0.30"/>
-</g>
-
-<g transform="translate(1848,510) rotate(-62)" opacity="0.44" filter="url(#bl2)">
-  <ellipse cx="0" cy="-11" rx="7" ry="16" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="5" x2="0" y2="-9" stroke="#C4A868" stroke-width="0.8" opacity="0.36"/>
-</g>
-
-<g transform="translate(1715,78) rotate(20)" opacity="0.54" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-10" rx="6" ry="14" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-8" stroke="#D4C090" stroke-width="0.7" opacity="0.38"/>
-  <line x1="0" y1="-2" x2="4"  y2="-7" stroke="#D4C090" stroke-width="0.5" opacity="0.26"/>
-  <line x1="0" y1="-2" x2="-4" y2="-7" stroke="#D4C090" stroke-width="0.5" opacity="0.26"/>
-</g>
-
-<g transform="translate(1658,310) rotate(-108)" opacity="0.42" filter="url(#bl1)">
-  <ellipse cx="0" cy="-12" rx="7" ry="18" fill="url(#g-petala-rosa)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C8895C" stroke-width="0.8" opacity="0.33"/>
-</g>
-
-<g transform="translate(1875,385) rotate(-28)" opacity="0.28" filter="url(#bl3)">
-  <ellipse cx="0" cy="-9" rx="5.5" ry="13" fill="url(#g-petala-marrom)"/>
-</g>
-
-<g transform="translate(1755,635) rotate(78)" opacity="0.40" filter="url(#bl2)">
-  <ellipse cx="0" cy="-12" rx="7.5" ry="17" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C4A868" stroke-width="0.8" opacity="0.33"/>
-</g>
-
-<g transform="translate(1608,142) rotate(-50)" opacity="0.50" filter="url(#bl1)">
-  <ellipse cx="0" cy="-11" rx="6.5" ry="15" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-9" stroke="#D4C090" stroke-width="0.7" opacity="0.36"/>
-</g>
-
-<g transform="translate(1812,758) rotate(42)" opacity="0.26" filter="url(#bl3)">
-  <ellipse cx="0" cy="-7.5" rx="5" ry="11" fill="url(#g-petala-rosa)"/>
-</g>
-
-<g transform="translate(1680,455) rotate(-135)" opacity="0.40" filter="url(#bl2)">
-  <ellipse cx="0" cy="-12" rx="7" ry="17" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C4A868" stroke-width="0.7" opacity="0.31"/>
-</g>
-
-<g transform="translate(1742,225) rotate(62)" opacity="0.60" filter="url(#sombra-petala)">
-  <ellipse cx="0" cy="-12" rx="7" ry="16" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="5" x2="0" y2="-10" stroke="#C4845A" stroke-width="0.8" opacity="0.40"/>
-  <line x1="0" y1="-2" x2="4"  y2="-8" stroke="#C4845A" stroke-width="0.5" opacity="0.28"/>
-  <line x1="0" y1="-2" x2="-4" y2="-8" stroke="#C4845A" stroke-width="0.5" opacity="0.28"/>
-</g>
-
-<g transform="translate(1580,682) rotate(-22)" opacity="0.35" filter="url(#bl2)">
-  <ellipse cx="0" cy="-10" rx="6" ry="14" fill="url(#g-petala-branca)"/>
-  <line x1="0" y1="4" x2="0" y2="-8" stroke="#D4C090" stroke-width="0.7" opacity="0.30"/>
-</g>
-
-<g transform="translate(1858,855) rotate(55)" opacity="0.25" filter="url(#bl3)">
-  <ellipse cx="0" cy="-8" rx="5" ry="11" fill="url(#g-petala-creme)"/>
-</g>
-
-<!-- Pétalas bordas topo/base (discretas, x moderado) -->
-<g transform="translate(405,38) rotate(15)" opacity="0.33" filter="url(#bl2)">
-  <ellipse cx="0" cy="-9" rx="5.5" ry="13" fill="url(#g-petala-creme)"/>
-  <line x1="0" y1="3" x2="0" y2="-7" stroke="#C4A868" stroke-width="0.6" opacity="0.30"/>
-</g>
-
-<g transform="translate(1515,42) rotate(-20)" opacity="0.31" filter="url(#bl2)">
-  <ellipse cx="0" cy="-9" rx="5.5" ry="13" fill="url(#g-petala-marrom)"/>
-  <line x1="0" y1="3" x2="0" y2="-7" stroke="#C4845A" stroke-width="0.6" opacity="0.28"/>
-</g>
-
-<g transform="translate(380,1058) rotate(-30)" opacity="0.30" filter="url(#bl2)">
-  <ellipse cx="0" cy="-9" rx="5" ry="12" fill="url(#g-petala-branca)"/>
-</g>
-
-<g transform="translate(1540,1062) rotate(25)" opacity="0.28" filter="url(#bl2)">
-  <ellipse cx="0" cy="-9" rx="5" ry="12" fill="url(#g-petala-creme)"/>
-</g>
-
-
-<!-- ════════════════════════════════════════════════════════
-     TRIGO TOPO CENTRO (muito sutil, quase ghost)
-     ════════════════════════════════════════════════════════ -->
-<g transform="translate(960,0)" opacity="0.20" filter="url(#bl3)">
-  <path d="M 0 -8 C 2 28 1 65 0 98" fill="none" stroke="#A9551F" stroke-width="1.8" stroke-linecap="round"/>
-  <ellipse cx="-5" cy="28" rx="4"   ry="9.5" fill="#C4845A" transform="rotate(-15,-5,28)" opacity="0.80"/>
-  <ellipse cx=" 5" cy="24" rx="4"   ry="9.5" fill="#C4845A" transform="rotate( 12, 5,24)" opacity="0.75"/>
-  <ellipse cx="-4" cy="50" rx="3.8" ry="8.5" fill="#B8714A" transform="rotate(-10,-4,50)" opacity="0.70"/>
-  <ellipse cx=" 4" cy="46" rx="3.8" ry="8.5" fill="#B8714A" transform="rotate(  8, 4,46)" opacity="0.65"/>
-  <ellipse cx=" 0" cy="68" rx="3.2" ry="7"   fill="#A9551F"                               opacity="0.60"/>
-  <path d="M -5 20  C -12 28 -10 40 -5 46" fill="none" stroke="#A9551F" stroke-width="0.9" stroke-linecap="round" opacity="0.40"/>
-  <path d="M  5 16  C  12 24  10 36  5 42" fill="none" stroke="#A9551F" stroke-width="0.9" stroke-linecap="round" opacity="0.38"/>
-  <path d="M -48 -8 C -46 25 -48 58 -48 88" fill="none" stroke="#A9551F" stroke-width="1.5" stroke-linecap="round"/>
-  <ellipse cx="-52" cy="22" rx="3.5" ry="8" fill="#C4845A" transform="rotate(-12,-52,22)" opacity="0.70"/>
-  <ellipse cx="-44" cy="20" rx="3.5" ry="8" fill="#C4845A" transform="rotate( 10,-44,20)" opacity="0.65"/>
-  <ellipse cx="-50" cy="44" rx="3"   ry="7" fill="#B8714A" transform="rotate( -8,-50,44)" opacity="0.60"/>
-  <path d="M 48 -8 C 46 25 48 58 48 88" fill="none" stroke="#A9551F" stroke-width="1.5" stroke-linecap="round"/>
-  <ellipse cx=" 52" cy="22" rx="3.5" ry="8" fill="#C4845A" transform="rotate( 12, 52,22)" opacity="0.70"/>
-  <ellipse cx=" 44" cy="20" rx="3.5" ry="8" fill="#C4845A" transform="rotate(-10, 44,20)" opacity="0.65"/>
-  <ellipse cx=" 50" cy="44" rx="3"   ry="7" fill="#B8714A" transform="rotate(  8, 50,44)" opacity="0.60"/>
-</g>
-
-
-<!-- ════════════════════════════════════════════════════════
-     MANCHAS DE PROFUNDIDADE (muito borradas)
-     ════════════════════════════════════════════════════════ -->
-<g opacity="0.07" filter="url(#bl4)">
-  <circle cx="180"  cy="120"  r="160" fill="#C4845A"/>
-  <circle cx="1740" cy="110"  r="150" fill="#C4845A"/>
-  <circle cx="100"  cy="900"  r="170" fill="#7AC562"/>
-  <circle cx="1820" cy="920"  r="155" fill="#7AC562"/>
-</g>
-
-<!-- ════════════════════════════════════════════════════════
-     ELEMENTOS DE COMIDA — nos cantos e bordas, nunca no centro
-     ════════════════════════════════════════════════════════ -->
-
-<!-- ┌──────────────────────────────────────
-     CANTO SUP ESQ — tomates cereja + alho + alecrim
-     └────────────────────────────────────── -->
-<g transform="translate(155, 340)" opacity="0.68">
-  <!-- Galho de alecrim -->
-  <path d="M 0 0 C -5 -22 -3 -48 0 -72 C 3 -95 2 -115 0 -132"
+<!-- 1. Alecrim — y=440 -->
+<g transform="translate(185, 440)" opacity="0.60">
+  <path d="M 0 0 C -3 -20 -2 -44 0 -66 C 2 -88 1 -108 0 -126"
     fill="none" stroke="#5A8A38" stroke-width="1.6" stroke-linecap="round"/>
-  <!-- Pares de folhinhas de alecrim ao longo do caule -->
-  <ellipse cx="-4"  cy="-18"  rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate(-30,-4,-18)"   opacity="0.80"/>
-  <ellipse cx=" 4"  cy="-14"  rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate( 30, 4,-14)"   opacity="0.75"/>
-  <ellipse cx="-4"  cy="-35"  rx="2"   ry="5"   fill="#4A9A28" transform="rotate(-28,-4,-35)"   opacity="0.72"/>
-  <ellipse cx=" 4"  cy="-31"  rx="2"   ry="5"   fill="#4A9A28" transform="rotate( 28, 4,-31)"   opacity="0.68"/>
-  <ellipse cx="-3.5" cy="-52" rx="2"   ry="4.8" fill="#3E8820" transform="rotate(-25,-3.5,-52)" opacity="0.65"/>
-  <ellipse cx=" 3.5" cy="-48" rx="2"   ry="4.8" fill="#3E8820" transform="rotate( 25, 3.5,-48)" opacity="0.60"/>
-  <ellipse cx="-3"  cy="-68"  rx="1.8" ry="4.2" fill="#357018" transform="rotate(-22,-3,-68)"   opacity="0.55"/>
-  <ellipse cx=" 3"  cy="-64"  rx="1.8" ry="4.2" fill="#357018" transform="rotate( 22, 3,-64)"   opacity="0.50"/>
-  <ellipse cx="-2.5" cy="-84" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate(-18,-2.5,-84)" opacity="0.48"/>
-  <ellipse cx=" 2.5" cy="-80" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate( 18, 2.5,-80)" opacity="0.45"/>
-  <ellipse cx="-2"  cy="-100" rx="1.5" ry="3.5" fill="#2E6015" transform="rotate(-15,-2,-100)"  opacity="0.42"/>
-  <ellipse cx=" 2"  cy="-96"  rx="1.5" ry="3.5" fill="#2E6015" transform="rotate( 15, 2,-96)"   opacity="0.40"/>
-  <ellipse cx="-1.8" cy="-115" rx="1.4" ry="3.2" fill="#2E6015" transform="rotate(-12,-1.8,-115)" opacity="0.38"/>
-  <ellipse cx=" 1.8" cy="-111" rx="1.4" ry="3.2" fill="#2E6015" transform="rotate( 12, 1.8,-111)" opacity="0.36"/>
+  <ellipse cx="-4"  cy="-16" rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate(-30,-4,-16)"  opacity="0.80"/>
+  <ellipse cx=" 4"  cy="-12" rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate( 30, 4,-12)"  opacity="0.75"/>
+  <ellipse cx="-4"  cy="-32" rx="2"   ry="5"   fill="#4A9A28" transform="rotate(-28,-4,-32)"  opacity="0.70"/>
+  <ellipse cx=" 4"  cy="-28" rx="2"   ry="5"   fill="#4A9A28" transform="rotate( 28, 4,-28)"  opacity="0.65"/>
+  <ellipse cx="-3.5" cy="-48" rx="2"  ry="4.8" fill="#3E8820" transform="rotate(-25,-3.5,-48)" opacity="0.62"/>
+  <ellipse cx=" 3.5" cy="-44" rx="2"  ry="4.8" fill="#3E8820" transform="rotate( 25, 3.5,-44)" opacity="0.58"/>
+  <ellipse cx="-3"  cy="-64" rx="1.8" ry="4.2" fill="#357018" transform="rotate(-22,-3,-64)"  opacity="0.54"/>
+  <ellipse cx=" 3"  cy="-60" rx="1.8" ry="4.2" fill="#357018" transform="rotate( 22, 3,-60)"  opacity="0.50"/>
+  <ellipse cx="-2.5" cy="-80" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate(-18,-2.5,-80)" opacity="0.46"/>
+  <ellipse cx=" 2.5" cy="-76" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate( 18, 2.5,-76)" opacity="0.42"/>
 </g>
 
-<!-- Tomates cereja — cacho esq -->
-<g transform="translate(105, 370)" opacity="0.65">
-  <!-- Cabinhos -->
-  <path d="M 0 0 C -8 -10 -14 -22 -12 -32" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M 0 0 C  5 -12  8 -24   5 -34" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M 0 0 C -2 -15  2 -28   0 -38" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <!-- Tomate 1 -->
-  <circle cx="-12" cy="-33" r="9.5" fill="url(#g-tomate)"/>
-  <circle cx="-15" cy="-38" r="3.5" fill="#FFA080" opacity="0.45"/>
-  <path d="M -12 -42 C -15 -46 -10 -48 -8 -44" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
-  <ellipse cx="-14" cy="-45" rx="3.5" ry="2" fill="#3A8A1A" opacity="0.80"/>
-  <ellipse cx="-10" cy="-46" rx="2.5" ry="1.5" fill="#3A8A1A" opacity="0.70" transform="rotate(40,-10,-46)"/>
-  <!-- Tomate 2 -->
-  <circle cx=" 5"  cy="-35" r="8.5" fill="url(#g-tomate)"/>
-  <circle cx=" 2"  cy="-40" r="3"   fill="#FFA080" opacity="0.40"/>
-  <path d="M  5 -43 C  2 -47  7 -49  9 -45" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
-  <ellipse cx=" 3"  cy="-46" rx="3" ry="1.8" fill="#3A8A1A" opacity="0.75"/>
-  <ellipse cx=" 7"  cy="-47" rx="2.2" ry="1.4" fill="#3A8A1A" opacity="0.65" transform="rotate(-35,7,-47)"/>
-  <!-- Tomate 3 (pequeno) -->
-  <circle cx=" 0"  cy="-39" r="7.5" fill="url(#g-tomate)" opacity="0.88"/>
-  <circle cx="-2"  cy="-43" r="2.5" fill="#FFA080" opacity="0.38"/>
-  <path d="M  0 -46 C -2 -50  3 -51  4 -47" fill="none" stroke="#2E7010" stroke-width="1.1" stroke-linecap="round"/>
-  <ellipse cx="-1" cy="-49" rx="2.5" ry="1.5" fill="#3A8A1A" opacity="0.70"/>
+<!-- 2. Tomates cereja — y=510 -->
+<g transform="translate(50, 510)" opacity="0.62">
+  <path d="M 0 0 C -8 -10 -13 -22 -11 -32" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 0 0 C  5 -12  7 -23   4 -33" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 0 0 C -1 -14  1 -26   0 -36" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="-11" cy="-33" r="9"  fill="#D84828" opacity="0.82"/>
+  <circle cx="-14" cy="-38" r="3"  fill="#F07858" opacity="0.40"/>
+  <path d="M -11 -41 C -14 -45 -9 -47 -7 -43" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
+  <ellipse cx="-13" cy="-44" rx="3" ry="1.8" fill="#3A8A1A" opacity="0.75"/>
+  <circle cx=" 4"  cy="-34" r="8"  fill="#D84828" opacity="0.78"/>
+  <circle cx=" 2"  cy="-38" r="2.8" fill="#F07858" opacity="0.38"/>
+  <path d="M  4 -42 C  2 -46  7 -48  9 -44" fill="none" stroke="#2E7010" stroke-width="1.1" stroke-linecap="round"/>
+  <ellipse cx=" 3"  cy="-45" rx="2.8" ry="1.6" fill="#3A8A1A" opacity="0.70"/>
+  <circle cx=" 0"  cy="-37" r="7"  fill="#D84828" opacity="0.74"/>
+  <circle cx="-1"  cy="-41" r="2.2" fill="#F07858" opacity="0.35"/>
+  <path d="M  0 -44 C -1 -48  3 -49  4 -45" fill="none" stroke="#2E7010" stroke-width="1"   stroke-linecap="round"/>
+  <ellipse cx="-1" cy="-47" rx="2.2" ry="1.4" fill="#3A8A1A" opacity="0.65"/>
 </g>
 
-<!-- Alho — canto inf esq, junto ao solo -->
-<g transform="translate(72, 1012)" opacity="0.60">
-  <!-- Bulbo principal -->
-  <ellipse cx="0" cy="0" rx="16" ry="18" fill="url(#g-alho)"/>
-  <!-- Ranhuras verticais do alho -->
-  <path d="M 0 -17 C -2 -8 -2 4 0 18"   fill="none" stroke="#C4B080" stroke-width="1" opacity="0.50"/>
-  <path d="M -8 -14 C -9 -6 -9 4 -8 16"  fill="none" stroke="#C4B080" stroke-width="0.8" opacity="0.40"/>
-  <path d="M  8 -14 C  9 -6  9 4  8 16"  fill="none" stroke="#C4B080" stroke-width="0.8" opacity="0.40"/>
-  <path d="M -13 -8 C -14 0 -14 8 -13 14" fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.30"/>
-  <path d="M  13 -8 C  14 0  14 8  13 14" fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.30"/>
-  <!-- Caule do alho -->
-  <path d="M 0 -17 C -2 -30 0 -40 1 -52" fill="none" stroke="#5A8A38" stroke-width="1.8" stroke-linecap="round" opacity="0.70"/>
-  <!-- Raízes finas -->
-  <path d="M -4 16  C -6 24 -4 30 -5 36"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
-  <path d="M  0 17  C  0 26  2 32  1 38"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.42"/>
-  <path d="M  5 16  C  7 24  5 30  6 36"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.40"/>
-  <path d="M -8 14  C -10 20 -8 28 -10 33" fill="none" stroke="#A89060" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
-  <path d="M  9 13  C  11 19  9 27  11 32" fill="none" stroke="#A89060" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
-  <!-- Mini dentes de alho soltos à frente -->
-  <g transform="translate(28, -8) rotate(15)">
-    <ellipse cx="0" cy="0" rx="7" ry="10" fill="url(#g-alho)" opacity="0.85"/>
-    <path d="M 0 -9 C -1 -4 -1 2 0 9"  fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.45"/>
-    <path d="M 0 -10 C -1 -14 0 -18 1 -22" fill="none" stroke="#5A8A38" stroke-width="1.2" stroke-linecap="round" opacity="0.60"/>
-  </g>
-  <g transform="translate(-30, -5) rotate(-18)">
-    <ellipse cx="0" cy="0" rx="6" ry="9" fill="url(#g-alho)" opacity="0.78"/>
-    <path d="M 0 -8 C -1 -4 -1 2 0 8"  fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.40"/>
-    <path d="M 0 -9 C -1 -13 0 -17 1 -20" fill="none" stroke="#5A8A38" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
-  </g>
+<!-- 3. Pimenta malagueta — y=585 -->
+<g transform="translate(190, 585)" opacity="0.55">
+  <path d="M 0 0 C 2 -8 0 -14 -2 -19" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round"/>
+  <ellipse cx="-1" cy="-4" rx="4" ry="3" fill="#4A9A28" opacity="0.68" transform="rotate(-20,-1,-4)"/>
+  <path d="M -2 -19 C -6 -27 -8 -40 -5 -52 C -2 -62 4 -59 5 -48 C 7 -36 4 -24 -2 -19 Z" fill="#C84020" opacity="0.85"/>
+  <path d="M -4 -27 C -6 -34 -6 -44 -4 -50" fill="none" stroke="#E07050" stroke-width="1.2" stroke-linecap="round" opacity="0.40"/>
 </g>
 
-<!-- Pimenta malagueta — canto esq lateral -->
-<g transform="translate(215, 580)" opacity="0.55">
-  <!-- Cabinho -->
-  <path d="M 0 0 C 2 -8 0 -15 -2 -20" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round"/>
-  <ellipse cx="-1" cy="-4" rx="4" ry="3" fill="#4A9A28" opacity="0.70" transform="rotate(-20,-1,-4)"/>
-  <!-- Corpo da pimenta -->
-  <path d="M -2 -20 C -6 -28 -8 -42 -5 -55 C -2 -65 4 -62 5 -50 C 7 -38 4 -25 -2 -20 Z"
-    fill="url(#g-pimenta)"/>
-  <!-- Brilho -->
-  <path d="M -4 -28 C -6 -36 -6 -46 -4 -52" fill="none" stroke="#E88060" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+<!-- 4. Panela — y=660 -->
+<g transform="translate(85, 660)" opacity="0.50">
+  <ellipse cx="0" cy="-8" rx="30" ry="7" fill="#D4A870" opacity="0.30"/>
+  <path d="M -30 -8 C -30 -8 -32 -46 -26 -54 Q 0 -62 26 -54 C 32 -46 30 -8 30 -8 Z" fill="#D4A870" opacity="0.62"/>
+  <path d="M -24 -50 C -26 -38 -26 -20 -24 -9" fill="none" stroke="#F0C898" stroke-width="2" stroke-linecap="round" opacity="0.32"/>
+  <ellipse cx="0" cy="-54" rx="26" ry="6.5" fill="none" stroke="#C49050" stroke-width="2.8" opacity="0.55"/>
+  <ellipse cx="0" cy="-54" rx="26" ry="6.5" fill="#E8C090" opacity="0.25"/>
+  <path d="M -28 -57 Q 0 -73 28 -57" fill="#C8A060" opacity="0.70"/>
+  <ellipse cx="0" cy="-57" rx="28" ry="4.5" fill="#D4AA68" opacity="0.48"/>
+  <rect x="-4.5" y="-74" width="9" height="5" rx="2.5" fill="#C89848" opacity="0.62"/>
+  <path d="M -30 -36 C -40 -38 -44 -27 -40 -20 C -37 -14 -30 -16 -30 -16" fill="none" stroke="#B08040" stroke-width="4.5" stroke-linecap="round" opacity="0.56"/>
+  <path d="M  30 -36 C  40 -38  44 -27  40 -20 C  37 -14  30 -16  30 -16" fill="none" stroke="#B08040" stroke-width="4.5" stroke-linecap="round" opacity="0.56"/>
+  <path d="M -8 -75 C -10 -84 -7 -92 -9 -100" fill="none" stroke="#D4C8B0" stroke-width="1.8" stroke-linecap="round" opacity="0.28"/>
+  <path d="M  0 -76 C   1 -85  -1 -93   0 -102" fill="none" stroke="#D4C8B0" stroke-width="1.8" stroke-linecap="round" opacity="0.24"/>
+  <path d="M  8 -75 C   9 -84   7 -92   9 -100" fill="none" stroke="#D4C8B0" stroke-width="1.8" stroke-linecap="round" opacity="0.26"/>
 </g>
 
-<!-- Segunda pimenta — menor, tombada -->
-<g transform="translate(280, 495) rotate(55)" opacity="0.48">
-  <path d="M 0 0 C 1 -5 0 -10 -1 -13" fill="none" stroke="#4A8A28" stroke-width="1.1" stroke-linecap="round"/>
-  <ellipse cx="0" cy="-3" rx="3" ry="2.2" fill="#4A9A28" opacity="0.65" transform="rotate(-15,0,-3)"/>
-  <path d="M -1 -13 C -4 -19 -5 -28 -3 -36 C -1 -42 3 -40 4 -32 C 5 -24 3 -16 -1 -13 Z"
-    fill="url(#g-pimenta)" opacity="0.88"/>
-  <path d="M -3 -18 C -4 -24 -4 -30 -3 -35" fill="none" stroke="#E88060" stroke-width="1" stroke-linecap="round" opacity="0.40"/>
+<!-- 5. Colher de pau — y=745 -->
+<g transform="translate(195, 745) rotate(18)" opacity="0.42">
+  <rect x="-3.5" y="10" width="7" height="82" rx="3.5" fill="#8B5A28"/>
+  <ellipse cx="0" cy="5" rx="13" ry="11" fill="#A06830" opacity="0.75"/>
+  <ellipse cx="0" cy="6" rx="9"  ry="7.5" fill="#7A4E20" opacity="0.42"/>
+  <ellipse cx="-3.5" cy="2" rx="3.5" ry="2.5" fill="#C8903C" opacity="0.32"/>
 </g>
 
-<!-- Folha de manjericão — grande, arredondada -->
-<g transform="translate(128, 448) rotate(-15)" opacity="0.62">
-  <path d="M 0 0 C -25 -5 -38 -25 -22 -48 C -8 -68 18 -62 22 -40 C 26 -18 15 -3 0 0 Z"
-    fill="url(#g-manjericao)"/>
-  <!-- nervura central -->
-  <path d="M 0 0 C -8 -22 -12 -38 -22 -48" fill="none" stroke="#2E8018" stroke-width="1.2" stroke-linecap="round" opacity="0.42"/>
-  <!-- nervuras laterais -->
-  <path d="M -5 -12 C -15 -18 -22 -22 -24 -32" fill="none" stroke="#2E8018" stroke-width="0.7" opacity="0.28"/>
-  <path d="M -4 -26 C   2 -32  8 -38  6 -46" fill="none" stroke="#2E8018" stroke-width="0.7" opacity="0.24"/>
-  <path d="M -8 -20 C -18 -24 -24 -28 -26 -38" fill="none" stroke="#2E8018" stroke-width="0.6" opacity="0.22"/>
-</g>
-
-<!-- Segunda folha manjericão menor -->
-<g transform="translate(95, 488) rotate(20)" opacity="0.52">
-  <path d="M 0 0 C -18 -4 -28 -20 -16 -36 C -5 -50 14 -46 16 -28 C 18 -12 10 -2 0 0 Z"
-    fill="url(#g-manjericao)"/>
-  <path d="M 0 0 C -5 -16 -9 -28 -16 -36" fill="none" stroke="#2E8018" stroke-width="1" stroke-linecap="round" opacity="0.38"/>
-  <path d="M -4 -10 C -12 -16 -17 -20 -18 -28" fill="none" stroke="#2E8018" stroke-width="0.6" opacity="0.24"/>
+<!-- 6. Bife — y=820 -->
+<g transform="translate(55, 820)" opacity="0.50">
+  <!-- osso -->
+  <rect x="22" y="-8" width="28" height="7" rx="3.5" fill="#E8E0C8" opacity="0.72"/>
+  <circle cx="22" cy="-4.5" r="5.5" fill="#E8E0C8" opacity="0.70"/>
+  <circle cx="50" cy="-4.5" r="5.5" fill="#E8E0C8" opacity="0.70"/>
+  <!-- carne -->
+  <path d="M -28 0 C -32 -18 -22 -38 0 -42 C 18 -46 34 -38 36 -24 C 38 -8 28 4 10 6 C -8 8 -22 14 -28 0 Z"
+    fill="#A83820" opacity="0.80"/>
+  <!-- gordura borda -->
+  <path d="M -28 0 C -32 -18 -22 -38 0 -42" fill="none" stroke="#E8C890" stroke-width="5" stroke-linecap="round" opacity="0.60"/>
+  <!-- marcas de grelha -->
+  <path d="M -18 -30 C -10 -12 -4 0  -2 6"  fill="none" stroke="#7A2010" stroke-width="2.5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M  -8 -38 C   0 -20  6 -8   8 4"  fill="none" stroke="#7A2010" stroke-width="2.5" stroke-linecap="round" opacity="0.42"/>
+  <path d="M   4 -42 C  12 -24 16 -12  18 0"  fill="none" stroke="#7A2010" stroke-width="2"   stroke-linecap="round" opacity="0.38"/>
+  <!-- brilho -->
+  <path d="M -22 -28 C -16 -36 -4 -40  6 -40" fill="none" stroke="#D05030" stroke-width="1.8" stroke-linecap="round" opacity="0.35"/>
 </g>
 
 
-<!-- ┌──────────────────────────────────────
-     CANTO INF ESQ — milho + cenoura + alecrim
-     └────────────────────────────────────── -->
+<!-- ════ LADO DIREITO ════ -->
 
-<!-- Espiga de milho — canto inf esq -->
-<g transform="translate(175, 982)" opacity="0.58">
-  <!-- Caule da espiga -->
-  <path d="M 0 0 C 2 -15 1 -35 0 -55 C -1 -72 0 -88 2 -105"
-    fill="none" stroke="#7A9A38" stroke-width="2.2" stroke-linecap="round"/>
-  <!-- Palha cobrindo a espiga -->
-  <path d="M -8 -30 C -20 -45 -18 -70 -5 -85 C 8 -70 8 -45 -8 -30 Z"
-    fill="#C4A850" opacity="0.55"/>
-  <path d="M  8 -30 C  20 -45  18 -70  5 -85 C -8 -70 -8 -45  8 -30 Z"
-    fill="#B89838" opacity="0.50"/>
-  <!-- Corpo do milho -->
-  <ellipse cx="0" cy="-57" rx="9" ry="26" fill="url(#g-milho)"/>
-  <!-- Graos do milho (linhas horizontais) -->
-  <path d="M -8 -40 Q 0 -38 8 -40" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.50"/>
-  <path d="M -9 -45 Q 0 -43 9 -45" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.48"/>
-  <path d="M -9 -50 Q 0 -48 9 -50" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.46"/>
-  <path d="M -9 -55 Q 0 -53 9 -55" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.44"/>
-  <path d="M -9 -60 Q 0 -58 9 -60" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.42"/>
-  <path d="M -9 -65 Q 0 -63 9 -65" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.40"/>
-  <path d="M -8 -70 Q 0 -68 8 -70" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.38"/>
-  <!-- Linhas verticais -->
-  <path d="M -5 -35 C -5 -55 -5 -72 -5 -80" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.30"/>
-  <path d="M  0 -34 C  0 -56  0 -74  0 -82" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.28"/>
-  <path d="M  5 -35 C  5 -55  5 -72  5 -80" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.30"/>
-  <!-- Cabelo do milho -->
-  <path d="M -5 -82 C -8 -95 -5 -105 -3 -115" fill="none" stroke="#C8A840" stroke-width="1"   stroke-linecap="round" opacity="0.55"/>
-  <path d="M  0 -83 C -1 -96  1 -106  2 -116" fill="none" stroke="#C8A840" stroke-width="1"   stroke-linecap="round" opacity="0.52"/>
-  <path d="M  4 -82 C  6 -94  5 -104  5 -114" fill="none" stroke="#C8A840" stroke-width="0.9" stroke-linecap="round" opacity="0.48"/>
-  <path d="M -8 -80 C -12 -92 -10 -102 -8 -112" fill="none" stroke="#C8A840" stroke-width="0.9" stroke-linecap="round" opacity="0.45"/>
-  <path d="M  7 -80 C  10 -92   9 -102  8 -112" fill="none" stroke="#C8A840" stroke-width="0.9" stroke-linecap="round" opacity="0.45"/>
-  <!-- Folha da espiga -->
-  <path d="M -2 -48 C -30 -42 -45 -30 -40 -15 C -25 -10 -8 -22 -2 -48 Z"
-    fill="#6AAA38" opacity="0.55"/>
-  <path d="M -2 -48 C -18 -36 -28 -22 -40 -15" fill="none" stroke="#4A8A20" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+<!-- 1. Frigideira — y=445 -->
+<g transform="translate(1835, 445) rotate(15)" opacity="0.46">
+  <ellipse cx="0" cy="0" rx="28" ry="11" fill="#5A3A18" opacity="0.32"/>
+  <ellipse cx="0" cy="0" rx="28" ry="11" fill="none" stroke="#8B6030" stroke-width="4.5" opacity="0.60"/>
+  <path d="M -24 -6 Q -15 -11  0 -10 Q 15 -11  24 -6" fill="none" stroke="#C8A060" stroke-width="1.8" stroke-linecap="round" opacity="0.32"/>
+  <rect x="28" y="-4.5" width="42" height="9" rx="4.5" fill="#7A4818"/>
+  <circle cx="38" cy="0" r="2.8" fill="#5A3810" opacity="0.68"/>
+  <circle cx="50" cy="0" r="2.8" fill="#5A3810" opacity="0.68"/>
+  <!-- ovo frito -->
+  <ellipse cx="-4" cy="1" rx="14" ry="6.5" fill="#F5E8C0" opacity="0.70"/>
+  <circle  cx="-4" cy="1" r="4.5" fill="#E8A020" opacity="0.78"/>
+  <circle  cx="-5" cy="0" r="1.8" fill="#F0B828" opacity="0.50"/>
 </g>
 
-<!-- Cenoura — junto ao alho, canto inf esq -->
-<g transform="translate(42, 1048) rotate(12)" opacity="0.55">
-  <!-- Corpo da cenoura -->
-  <path d="M 0 0 C -7 8 -8 22 -5 38 C -2 50 2 55 4 52 C 8 42 8 25 5 10 Z"
-    fill="url(#g-abobora)"/>
-  <!-- Ranhuras da cenoura -->
-  <path d="M -2 5  C -4 12 -4 22 -3 35" fill="none" stroke="#E88828" stroke-width="0.8" opacity="0.40"/>
-  <path d="M  3 6  C  4 14  4 24  3 36" fill="none" stroke="#E88828" stroke-width="0.8" opacity="0.38"/>
-  <path d="M  0 4  C  0 15  0 28  1 38" fill="none" stroke="#D07018" stroke-width="0.7" opacity="0.35"/>
-  <!-- Ponta da cenoura -->
-  <path d="M 3 50 C 3 56 1 62 2 68" fill="none" stroke="url(#g-abobora)" stroke-width="1.8" stroke-linecap="round" opacity="0.60"/>
-  <!-- Parte verde (folha da cenoura) -->
-  <path d="M 0 0 C -3 -8 -1 -18 0 -25" fill="none" stroke="#4A8A28" stroke-width="1.5" stroke-linecap="round" opacity="0.65"/>
-  <path d="M 0 -10 C -8 -15 -12 -25 -8 -35 C -2 -42 5 -36 4 -25 C 3 -16 1 -12 0 -10 Z"
-    fill="#5AAA38" opacity="0.60"/>
-  <path d="M 0 -10 C -1 -20 -2 -28 -8 -35" fill="none" stroke="#3A8820" stroke-width="0.9" stroke-linecap="round" opacity="0.40"/>
-  <path d="M 0 0 C  4 -6  2 -16  1 -22" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round" opacity="0.58"/>
-  <path d="M 1 -8 C  7 -12  9 -22  6 -30 C  2 -36 -2 -30 -1 -20 C 0 -12 0 -10 1 -8 Z"
-    fill="#5AAA38" opacity="0.55"/>
+<!-- 2. Tomates cereja dir — y=515 -->
+<g transform="translate(1865, 515)" opacity="0.60">
+  <path d="M 0 0 C  8 -10  13 -22  11 -32" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 0 0 C -5 -12  -7 -23  -4 -33" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 0 0 C  1 -14  -1 -26   0 -36" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx=" 11" cy="-33" r="9"   fill="#D84828" opacity="0.80"/>
+  <circle cx=" 14" cy="-38" r="3"   fill="#F07858" opacity="0.38"/>
+  <path d="M  11 -41 C  14 -45  9 -47  7 -43" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
+  <ellipse cx=" 13" cy="-44" rx="3"   ry="1.8" fill="#3A8A1A" opacity="0.73"/>
+  <circle cx="-4"  cy="-34" r="8"   fill="#D84828" opacity="0.76"/>
+  <circle cx="-2"  cy="-38" r="2.8"  fill="#F07858" opacity="0.36"/>
+  <path d="M  -4 -42 C  -2 -46 -7 -47 -9 -43" fill="none" stroke="#2E7010" stroke-width="1.1" stroke-linecap="round"/>
+  <ellipse cx="-3" cy="-45" rx="2.8" ry="1.6" fill="#3A8A1A" opacity="0.68"/>
+  <circle cx="  0" cy="-37" r="7"   fill="#D84828" opacity="0.72"/>
+  <circle cx="  1" cy="-41" r="2.2"  fill="#F07858" opacity="0.33"/>
+  <path d="M   0 -44 C  1 -48 -3 -49 -4 -45" fill="none" stroke="#2E7010" stroke-width="1"   stroke-linecap="round"/>
+  <ellipse cx=" 1" cy="-47" rx="2.2" ry="1.4" fill="#3A8A1A" opacity="0.62"/>
 </g>
 
-
-<!-- ┌──────────────────────────────────────
-     CANTO SUP DIR — tomates + alecrim + pimenta
-     └────────────────────────────────────── -->
-
-<!-- Alecrim dir -->
-<g transform="translate(1764, 340)" opacity="0.66">
-  <path d="M 0 0 C 5 -22 3 -48 0 -72 C -3 -95 -2 -115 0 -132"
-    fill="none" stroke="#5A8A38" stroke-width="1.6" stroke-linecap="round"/>
-  <ellipse cx=" 4"  cy="-18"  rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate( 30, 4,-18)"   opacity="0.80"/>
-  <ellipse cx="-4"  cy="-14"  rx="2.2" ry="5.5" fill="#5AAF36" transform="rotate(-30,-4,-14)"   opacity="0.75"/>
-  <ellipse cx=" 4"  cy="-35"  rx="2"   ry="5"   fill="#4A9A28" transform="rotate( 28, 4,-35)"   opacity="0.72"/>
-  <ellipse cx="-4"  cy="-31"  rx="2"   ry="5"   fill="#4A9A28" transform="rotate(-28,-4,-31)"   opacity="0.68"/>
-  <ellipse cx=" 3.5" cy="-52" rx="2"   ry="4.8" fill="#3E8820" transform="rotate( 25, 3.5,-52)" opacity="0.65"/>
-  <ellipse cx="-3.5" cy="-48" rx="2"   ry="4.8" fill="#3E8820" transform="rotate(-25,-3.5,-48)" opacity="0.60"/>
-  <ellipse cx=" 3"  cy="-68"  rx="1.8" ry="4.2" fill="#357018" transform="rotate( 22, 3,-68)"   opacity="0.55"/>
-  <ellipse cx="-3"  cy="-64"  rx="1.8" ry="4.2" fill="#357018" transform="rotate(-22,-3,-64)"   opacity="0.50"/>
-  <ellipse cx=" 2.5" cy="-84" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate( 18, 2.5,-84)" opacity="0.48"/>
-  <ellipse cx="-2.5" cy="-80" rx="1.6" ry="3.8" fill="#2E6015" transform="rotate(-18,-2.5,-80)" opacity="0.45"/>
-  <ellipse cx=" 2"  cy="-100" rx="1.5" ry="3.5" fill="#2E6015" transform="rotate( 15, 2,-100)"  opacity="0.42"/>
-  <ellipse cx="-2"  cy="-96"  rx="1.5" ry="3.5" fill="#2E6015" transform="rotate(-15,-2,-96)"   opacity="0.40"/>
+<!-- 3. Tigela de salada — y=590 -->
+<g transform="translate(1725, 590)" opacity="0.48">
+  <ellipse cx="0" cy="4" rx="38" ry="7.5" fill="#A89068" opacity="0.20"/>
+  <path d="M -36 -9 Q -34 22 0 26 Q 34 22 36 -9 Z" fill="#E8D8B8" opacity="0.68"/>
+  <ellipse cx="0" cy="-9" rx="36" ry="8.5" fill="none" stroke="#C8A868" stroke-width="2.8" opacity="0.52"/>
+  <ellipse cx="0" cy="-9" rx="36" ry="8.5" fill="#F0E4C8" opacity="0.28"/>
+  <ellipse cx="-11" cy="-13" rx="13" ry="8.5" fill="#6AAF3A" opacity="0.70" transform="rotate(-20,-11,-13)"/>
+  <ellipse cx=" 9"  cy="-15" rx="11" ry="6.5" fill="#4A9828" opacity="0.62" transform="rotate( 15, 9,-15)"/>
+  <ellipse cx=" -1" cy="-19" rx="9"  ry="5.5" fill="#7AC844" opacity="0.58" transform="rotate(-8,-1,-19)"/>
+  <path d="M -11 -20 C -11 -13 -11 -5 -9 -2" fill="none" stroke="#3A8018" stroke-width="1" stroke-linecap="round" opacity="0.36"/>
+  <circle cx=" 15" cy="-8" r="5.5" fill="#D84828" opacity="0.75"/>
+  <circle cx=" 17" cy="-11" r="1.8" fill="#F07858" opacity="0.38"/>
+  <circle cx="-17" cy="-7" r="4.8" fill="#D84828" opacity="0.70"/>
+  <ellipse cx="0" cy="-7" rx="6.5" ry="6.5" fill="#7AB83C" opacity="0.66"/>
+  <ellipse cx="0" cy="-7" rx="4.5" ry="4.5" fill="#A8D060" opacity="0.52"/>
+  <line x1="0" y1="-13" x2="0" y2="-1"  stroke="#5A8820" stroke-width="1" opacity="0.42"/>
+  <line x1="-5" y1="-7" x2="5" y2="-7"  stroke="#5A8820" stroke-width="1" opacity="0.42"/>
 </g>
 
-<!-- Tomates cereja dir -->
-<g transform="translate(1815, 370)" opacity="0.63">
-  <path d="M 0 0 C  8 -10  14 -22  12 -32" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M 0 0 C -5 -12  -8 -24  -5 -34" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M 0 0 C  2 -15  -2 -28   0 -38" fill="none" stroke="#4A8A28" stroke-width="1.2" stroke-linecap="round"/>
-  <circle cx=" 12" cy="-33" r="9.5" fill="url(#g-tomate)"/>
-  <circle cx=" 15" cy="-38" r="3.5" fill="#FFA080" opacity="0.42"/>
-  <path d="M  12 -42 C  15 -46  10 -48   8 -44" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
-  <ellipse cx=" 14" cy="-45" rx="3.5" ry="2" fill="#3A8A1A" opacity="0.78"/>
-  <ellipse cx=" 10" cy="-46" rx="2.5" ry="1.5" fill="#3A8A1A" opacity="0.68" transform="rotate(-40,10,-46)"/>
-  <circle cx="-5"  cy="-35" r="8.5" fill="url(#g-tomate)"/>
-  <circle cx="-2"  cy="-40" r="3"   fill="#FFA080" opacity="0.38"/>
-  <path d="M  -5 -43 C  -2 -47  -7 -49  -9 -45" fill="none" stroke="#2E7010" stroke-width="1.2" stroke-linecap="round"/>
-  <ellipse cx="-3"  cy="-46" rx="3" ry="1.8" fill="#3A8A1A" opacity="0.73"/>
-  <circle cx="  0" cy="-39" r="7.5" fill="url(#g-tomate)" opacity="0.86"/>
-  <circle cx=" 2"  cy="-43" r="2.5" fill="#FFA080" opacity="0.36"/>
-  <path d="M  0 -46 C  2 -50  -3 -51  -4 -47" fill="none" stroke="#2E7010" stroke-width="1.1" stroke-linecap="round"/>
-  <ellipse cx=" 1" cy="-49" rx="2.5" ry="1.5" fill="#3A8A1A" opacity="0.68"/>
+<!-- 4. Espátula dir — y=660 -->
+<g transform="translate(1865, 660) rotate(-28)" opacity="0.44">
+  <rect x="-4.5" y="0" width="9" height="65" rx="4.5" fill="#8B6030"/>
+  <rect x="-6.5" y="-25" width="13" height="28" rx="2" fill="#C8B090" opacity="0.78"/>
+  <rect x="-5.5" y="-2" width="11" height="7" rx="1" fill="#A07840" opacity="0.68"/>
+  <line x1="-3.5" y1="-20" x2="-3.5" y2="-5" stroke="#A09070" stroke-width="1.4" opacity="0.48"/>
+  <line x1=" 0"   y1="-20" x2=" 0"   y2="-5" stroke="#A09070" stroke-width="1.4" opacity="0.48"/>
+  <line x1=" 3.5" y1="-20" x2=" 3.5" y2="-5" stroke="#A09070" stroke-width="1.4" opacity="0.48"/>
+  <path d="M -4.5 -24 L -4.5 -4" stroke="#E0D8C0" stroke-width="1.3" stroke-linecap="round" opacity="0.38"/>
 </g>
 
-<!-- Pimenta dir -->
-<g transform="translate(1708, 580)" opacity="0.52">
-  <path d="M 0 0 C -2 -8 0 -15 2 -20" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round"/>
-  <ellipse cx="1" cy="-4" rx="4" ry="3" fill="#4A9A28" opacity="0.68" transform="rotate(20,1,-4)"/>
-  <path d="M 2 -20 C 6 -28 8 -42 5 -55 C 2 -65 -4 -62 -5 -50 C -7 -38 -4 -25 2 -20 Z"
-    fill="url(#g-pimenta)"/>
-  <path d="M 4 -28 C 6 -36 6 -46 4 -52" fill="none" stroke="#E88060" stroke-width="1.2" stroke-linecap="round" opacity="0.42"/>
+<!-- 5. Pimenta dir — y=730 -->
+<g transform="translate(1740, 730)" opacity="0.52">
+  <path d="M 0 0 C -2 -8 0 -14 2 -19" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round"/>
+  <ellipse cx="1" cy="-4" rx="4" ry="3" fill="#4A9A28" opacity="0.66" transform="rotate(20,1,-4)"/>
+  <path d="M 2 -19 C 6 -27 8 -40 5 -52 C 2 -62 -4 -59 -5 -48 C -7 -36 -4 -24 2 -19 Z" fill="#C84020" opacity="0.82"/>
+  <path d="M 4 -27 C 6 -34 6 -43 4 -49" fill="none" stroke="#E07050" stroke-width="1.2" stroke-linecap="round" opacity="0.38"/>
 </g>
 
-<!-- Folha manjericão dir -->
-<g transform="translate(1795, 448) rotate(15)" opacity="0.60">
-  <path d="M 0 0 C 25 -5 38 -25 22 -48 C 8 -68 -18 -62 -22 -40 C -26 -18 -15 -3 0 0 Z"
-    fill="url(#g-manjericao)"/>
-  <path d="M 0 0 C 8 -22 12 -38 22 -48" fill="none" stroke="#2E8018" stroke-width="1.2" stroke-linecap="round" opacity="0.40"/>
-  <path d="M 5 -12 C 15 -18 22 -22 24 -32" fill="none" stroke="#2E8018" stroke-width="0.7" opacity="0.26"/>
-  <path d="M 4 -26 C  -2 -32 -8 -38 -6 -46" fill="none" stroke="#2E8018" stroke-width="0.7" opacity="0.22"/>
-</g>
-
-
-<!-- ┌──────────────────────────────────────
-     CANTO INF DIR — milho + cenoura + alho
-     └────────────────────────────────────── -->
-
-<!-- Espiga de milho dir -->
-<g transform="translate(1748, 982)" opacity="0.56">
-  <path d="M 0 0 C -2 -15 -1 -35 0 -55 C 1 -72 0 -88 -2 -105"
-    fill="none" stroke="#7A9A38" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M  8 -30 C  20 -45  18 -70   5 -85 C -8 -70 -8 -45  8 -30 Z" fill="#C4A850" opacity="0.52"/>
-  <path d="M -8 -30 C -20 -45 -18 -70  -5 -85 C  8 -70  8 -45 -8 -30 Z" fill="#B89838" opacity="0.48"/>
-  <ellipse cx="0" cy="-57" rx="9" ry="26" fill="url(#g-milho)"/>
-  <path d="M -8 -40 Q 0 -38 8 -40" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.48"/>
-  <path d="M -9 -45 Q 0 -43 9 -45" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.46"/>
-  <path d="M -9 -50 Q 0 -48 9 -50" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.44"/>
-  <path d="M -9 -55 Q 0 -53 9 -55" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.42"/>
-  <path d="M -9 -60 Q 0 -58 9 -60" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.40"/>
-  <path d="M -9 -65 Q 0 -63 9 -65" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.38"/>
-  <path d="M -8 -70 Q 0 -68 8 -70" fill="none" stroke="#A07818" stroke-width="0.9" opacity="0.36"/>
-  <path d="M -5 -35 C -5 -55 -5 -72 -5 -80" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.28"/>
-  <path d="M  0 -34 C  0 -56  0 -74  0 -82" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.26"/>
-  <path d="M  5 -35 C  5 -55  5 -72  5 -80" fill="none" stroke="#C09020" stroke-width="0.7" opacity="0.28"/>
-  <path d="M -5 -82 C -8 -95 -5 -105 -3 -115" fill="none" stroke="#C8A840" stroke-width="1"   stroke-linecap="round" opacity="0.52"/>
-  <path d="M  0 -83 C -1 -96  1 -106  2 -116" fill="none" stroke="#C8A840" stroke-width="1"   stroke-linecap="round" opacity="0.50"/>
-  <path d="M  4 -82 C  6 -94  5 -104  5 -114" fill="none" stroke="#C8A840" stroke-width="0.9" stroke-linecap="round" opacity="0.46"/>
-  <path d="M -8 -80 C -12 -92 -10 -102 -8 -112" fill="none" stroke="#C8A840" stroke-width="0.9" stroke-linecap="round" opacity="0.43"/>
-  <path d="M  2 -48 C 30 -42  45 -30  40 -15 C 25 -10  8 -22  2 -48 Z" fill="#6AAA38" opacity="0.52"/>
-  <path d="M  2 -48 C 18 -36  28 -22  40 -15" fill="none" stroke="#4A8A20" stroke-width="0.9" stroke-linecap="round" opacity="0.33"/>
-</g>
-
-<!-- Alho canto inf dir -->
-<g transform="translate(1850, 1012)" opacity="0.58">
-  <ellipse cx="0" cy="0" rx="16" ry="18" fill="url(#g-alho)"/>
-  <path d="M 0 -17 C -2 -8 -2 4 0 18"   fill="none" stroke="#C4B080" stroke-width="1" opacity="0.48"/>
-  <path d="M -8 -14 C -9 -6 -9 4 -8 16"  fill="none" stroke="#C4B080" stroke-width="0.8" opacity="0.38"/>
-  <path d="M  8 -14 C  9 -6  9 4  8 16"  fill="none" stroke="#C4B080" stroke-width="0.8" opacity="0.38"/>
-  <path d="M -13 -8 C -14 0 -14 8 -13 14" fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.28"/>
-  <path d="M  13 -8 C  14 0  14 8  13 14" fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.28"/>
-  <path d="M 0 -17 C 2 -30 0 -40 -1 -52" fill="none" stroke="#5A8A38" stroke-width="1.8" stroke-linecap="round" opacity="0.68"/>
-  <path d="M -4 16  C -6 24 -4 30 -5 36"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.42"/>
-  <path d="M  0 17  C  0 26  2 32  1 38"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.40"/>
-  <path d="M  5 16  C  7 24  5 30  6 36"  fill="none" stroke="#A89060" stroke-width="0.8" stroke-linecap="round" opacity="0.38"/>
-  <g transform="translate(-28, -8) rotate(-15)">
-    <ellipse cx="0" cy="0" rx="7" ry="10" fill="url(#g-alho)" opacity="0.82"/>
-    <path d="M 0 -9 C -1 -4 -1 2 0 9"  fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.42"/>
-    <path d="M 0 -10 C 1 -14 0 -18 -1 -22" fill="none" stroke="#5A8A38" stroke-width="1.2" stroke-linecap="round" opacity="0.58"/>
-  </g>
-  <g transform="translate(30, -5) rotate(18)">
-    <ellipse cx="0" cy="0" rx="6" ry="9" fill="url(#g-alho)" opacity="0.75"/>
-    <path d="M 0 -8 C -1 -4 -1 2 0 8"  fill="none" stroke="#C4B080" stroke-width="0.7" opacity="0.38"/>
-    <path d="M 0 -9 C 1 -13 0 -17 -1 -20" fill="none" stroke="#5A8A38" stroke-width="1.1" stroke-linecap="round" opacity="0.52"/>
-  </g>
-</g>
-
-<!-- Cenoura dir -->
-<g transform="translate(1878, 1050) rotate(-10)" opacity="0.52">
-  <path d="M 0 0 C -7 8 -8 22 -5 38 C -2 50 2 55 4 52 C 8 42 8 25 5 10 Z" fill="url(#g-abobora)"/>
-  <path d="M -2 5  C -4 12 -4 22 -3 35" fill="none" stroke="#E88828" stroke-width="0.8" opacity="0.38"/>
-  <path d="M  3 6  C  4 14  4 24  3 36" fill="none" stroke="#E88828" stroke-width="0.8" opacity="0.36"/>
-  <path d="M  0 4  C  0 15  0 28  1 38" fill="none" stroke="#D07018" stroke-width="0.7" opacity="0.32"/>
-  <path d="M 3 50 C 3 56 1 62 2 68" fill="none" stroke="#C05810" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
-  <path d="M 0 0 C 3 -8 1 -18 0 -25" fill="none" stroke="#4A8A28" stroke-width="1.5" stroke-linecap="round" opacity="0.62"/>
-  <path d="M 0 -10 C 8 -15 12 -25 8 -35 C 2 -42 -5 -36 -4 -25 C -3 -16 -1 -12 0 -10 Z"
-    fill="#5AAA38" opacity="0.58"/>
-  <path d="M 0 -10 C 1 -20 2 -28 8 -35" fill="none" stroke="#3A8820" stroke-width="0.9" stroke-linecap="round" opacity="0.38"/>
-  <path d="M 0 0 C -4 -6 -2 -16 -1 -22" fill="none" stroke="#4A8A28" stroke-width="1.3" stroke-linecap="round" opacity="0.55"/>
-  <path d="M -1 -8 C -7 -12 -9 -22 -6 -30 C -2 -36 2 -30 1 -20 C 0 -12 0 -10 -1 -8 Z"
-    fill="#5AAA38" opacity="0.52"/>
+<!-- 6. Linguiça — y=800 -->
+<g transform="translate(1840, 800)" opacity="0.50">
+  <!-- corpo curvo da linguiça -->
+  <path d="M -42 0 C -38 -18 -18 -26  0 -22 C 18 -18 32 -8 34 8 C 36 22 24 30 10 26 C -4 22 -18 12 -28 4 C -36 -2 -44 16 -42 0 Z"
+    fill="#B06828" opacity="0.82"/>
+  <!-- brilho -->
+  <path d="M -34 -8 C -20 -22 0 -24 14 -18" fill="none" stroke="#D08840" stroke-width="2.5" stroke-linecap="round" opacity="0.38"/>
+  <!-- vincos da linguiça -->
+  <path d="M -22 -18 C -20 -10 -20 0 -22 8"  fill="none" stroke="#8B4A18" stroke-width="1.5" stroke-linecap="round" opacity="0.40"/>
+  <path d="M  -6 -22 C  -4 -14  -4 -4  -6 4"  fill="none" stroke="#8B4A18" stroke-width="1.5" stroke-linecap="round" opacity="0.38"/>
+  <path d="M   8 -22 C  10 -14  10 -4   8 4"  fill="none" stroke="#8B4A18" stroke-width="1.5" stroke-linecap="round" opacity="0.36"/>
+  <path d="M  22 -18 C  23 -10  23 -1  22 7"  fill="none" stroke="#8B4A18" stroke-width="1.5" stroke-linecap="round" opacity="0.34"/>
+  <!-- torção das pontas -->
+  <ellipse cx="-44" cy="-2" rx="5" ry="3.5" fill="#904A18" opacity="0.70" transform="rotate(-30,-44,-2)"/>
+  <ellipse cx=" 36" cy="10" rx="5" ry="3.5" fill="#904A18" opacity="0.70" transform="rotate( 25, 36,10)"/>
 </g>
 
 
