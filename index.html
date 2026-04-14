@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="La Campesina — Sabor caseiro, praticidade e carinho em cada refeição." />
+  <meta name="theme-color" content="#ECE7DE" />
+
+  <title>La Campesina</title>
+
+  <!-- Fontes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <main class="container" role="main">
+
+      <!-- ═══════════════════════════════════════════════
+           HEADER — Logo, nome e frase da marca
+           Para editar: troque a src da logo, o nome e a frase abaixo
+           ═══════════════════════════════════════════════ -->
+      <header class="profile-header">
+
+        <div class="logo-wrapper">
+          <!--
+            LOGO: o arquivo já está na raiz do projeto como "Logo-LaCampesina (1).svg"
+            Se quiser mover para a pasta /assets, atualize o src para:
+            src="assets/logo-la-campesina.svg"
+          -->
+          <img
+            src="Logo-LaCampesina (1).svg"
+            alt="Logo La Campesina"
+            class="brand-logo"
+            width="100"
+            height="100"
+          />
+        </div>
+
+        <!-- Nome da marca — edite aqui se necessário -->
+        <h1 class="brand-name">La Campesina</h1>
+
+        <!-- Frase de apoio — edite o texto abaixo -->
+        <p class="brand-tagline">Sabor caseiro, praticidade e carinho em cada refeição.</p>
+
+      </header>
+
+      <!-- ═══════════════════════════════════════════════
+           LINKS — Edite os href="" com os links reais
+           ═══════════════════════════════════════════════ -->
+      <nav class="links-nav" aria-label="Links principais da La Campesina">
+        <ul class="links-list">
+
+          <!-- ── Card 1: Cardápio ────────────────────────
+               EDITE: substitua href="#cardapio" pelo link real do cardápio
+               Exemplo: href="https://seusite.com/cardapio"
+          ──────────────────────────────────────────────── -->
+          <li class="link-item">
+            <a
+              href="https://canva.link/4jupnfp2uhmkwel"
+              class="link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver o cardápio da La Campesina"
+            >
+              <span class="link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+              </span>
+              <span class="link-text">Cardápio</span>
+              <span class="link-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <!-- ── Card 2: Peça sua marmita ────────────────
+               EDITE: substitua href="#marmita" pelo link de pedido
+               Exemplo: href="https://wa.me/5511999999999?text=Quero+pedir+minha+marmita"
+          ──────────────────────────────────────────────── -->
+          <li class="link-item">
+            <a
+              href="https://wa.me/5511918343751?text=Quero+pedir+minha+marmita!"
+              class="link-card link-card--destaque"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Pedir marmita da La Campesina"
+            >
+              <span class="link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="10" rx="2"/>
+                  <rect x="4" y="8" width="16" height="3" rx="1.5"/>
+                  <path d="M9 8V6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>
+                  <line x1="3" y1="16" x2="21" y2="16"/>
+                  <line x1="12" y1="11" x2="12" y2="21"/>
+                </svg>
+              </span>
+              <span class="link-text">Peça sua marmita</span>
+              <span class="link-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <!-- ── Card 3: Instagram ───────────────────────
+               EDITE: substitua href="#instagram" pelo perfil real
+               Exemplo: href="https://instagram.com/lacampesina"
+          ──────────────────────────────────────────────── -->
+          <li class="link-item">
+            <a
+              href="https://www.instagram.com/lacampesinarestaurante_/"
+              class="link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Acessar o Instagram da La Campesina"
+            >
+              <span class="link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </span>
+              <span class="link-text">Instagram</span>
+              <span class="link-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+
+          <!-- ── Card 4: Nos Avalie no Google ───────────
+               EDITE: substitua href="#google" pelo link da avaliação
+               Exemplo: href="https://g.page/r/SEU_CODIGO_GOOGLE/review"
+          ──────────────────────────────────────────────── -->
+          <li class="link-item">
+            <a
+              href="https://share.google.com/j3CtJKiJEXFQw6L2P"
+              class="link-card"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Avaliar a La Campesina no Google"
+            >
+              <span class="link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </span>
+              <span class="link-text">Nos Avalie no Google</span>
+              <span class="link-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- ═══════════════════════════════════════════════
+           RODAPÉ — Edite os textos abaixo se necessário
+           ═══════════════════════════════════════════════ -->
+      <footer class="page-footer" role="contentinfo">
+        <p class="footer-texto">Feito com carinho para <strong>La Campesina</strong></p>
+        <p class="footer-copy">La Campesina &copy; Todos os direitos reservados</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
